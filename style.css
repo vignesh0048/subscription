@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.tittle{
+    color: rgb(17, 13, 14);
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: center;
+    
+}
+.tittle h1{
+    border: 1px solid pink;
+    background-color: rgb(255, 196, 235);
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.subscription{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+.box{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: pink;
+    text-align: left;
+    margin-top: 2px;
+    
+    
+}
+.subscription__one__s1{
+    background-color: pink;
+    border: 1px solid pink;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.subscription p{
+    margin: 10px;
+}
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="subscription__box">
+<h1>0/-</h1>
+<h3>Free</h3>
+</div>
+<div class="subscription__box__s1">
+<p>Listen Your Music</p>
+<p>Share Links</p>
+<p>Create a Playlist</p>
+<p>Ad free Music</p>
+<p>Download Music</p>
+<p>Upload your music</p>
+</div>
